@@ -29,6 +29,7 @@ class SongList extends Component {
         }
         return (
           <div>
+            <h2>Lyrical</h2>
             <ul className="collection">{this.renderSongs()}</ul>
             <Link to="/songs/new" className="btn-floating btn-large red right">
             <i className="material-icons">add</i>
